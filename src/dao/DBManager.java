@@ -10,8 +10,7 @@ public class DBManager {
 		Connection connection = null;
 
 		try {
-			connection = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "RM94309",
-					"230301");
+			connection = DriverManager.getConnection("url", "username", "password");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

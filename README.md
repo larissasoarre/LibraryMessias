@@ -3,7 +3,7 @@ This project is a Java application developed as part of a mentorship program by 
 
 The application encompasses fundamental CRUD operations (Create, Read, Update, Delete) to seamlessly interact with book records. 
 
-The application includes a Sign-Up page with password encryption to protect user accounts and personal information to ensure data security. Access to the application is granted through a Login page, ensuring authorized usage. The application stores all data in a database, facilitating data integrity and enabling efficient information retrieval.
+The software includes a Sign-Up page with password encryption to protect user accounts and personal information to ensure data security. Access to the application is granted through a Login page, ensuring authorized usage. The application stores all data in a database, facilitating data integrity and enabling efficient information retrieval.
 
 
 ## ✨ Features
@@ -55,7 +55,7 @@ By meeting these requirements, you will be able to successfully run the software
     Replace the existing code with your own database connection details. 
     
     ```
-    connection = DriverManager.getConnection(url, username, password);
+    connection = DriverManager.getConnection("url", "username", "password");
     ```
 
 By following these steps, you can successfully install and configure the application for your specific environment and database.
