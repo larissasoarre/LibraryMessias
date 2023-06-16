@@ -118,7 +118,7 @@ If you encounter issues with the application, please check the following:
 
 
 ## 🧾 License
-This project is licensed under the [Specify the license].
+This project is licensed under the MIT License.
 
 
 ## 🥰 Acknowledgements
